@@ -2,12 +2,22 @@
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "gitkit",
   "version": "0.1.0",
-  "description": "Everyday git workflow: commit messages that match the repo, branch naming, PRs, sync, undo — plus a staged-secret guard that blocks commits containing keys or tokens",
+  "description": "Everyday git workflow: commit messages that match the repo, branch naming, PRs, sync, undo \u2014 plus a staged-secret guard that blocks commits containing keys or tokens",
   "author": {
-    "name": "vorarat",
-    "email": "vorarat.guer@gmail.com"
+    "name": "guerlol",
+    "url": "https://github.com/guerlol"
   },
+  "homepage": "https://github.com/guerlol/gitkit",
+  "repository": "https://github.com/guerlol/gitkit",
   "license": "MIT",
-  "keywords": ["git", "commit", "pull-request", "secrets", "pre-commit"],
-  "skills": ["./"]
+  "keywords": [
+    "git",
+    "commit",
+    "pull-request",
+    "secrets",
+    "pre-commit"
+  ],
+  "skills": [
+    "./"
+  ]
 }

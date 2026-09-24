@@ -3,6 +3,24 @@
 Everyday git workflow for Claude Code, plus a guard that stops secrets reaching
 a commit.
 
+## Install
+
+```bash
+claude plugin marketplace add guerlol/gitkit
+claude plugin install gitkit@gitkit
+```
+
+Restart Claude Code, or run `/reload-plugins`, and the commands appear.
+
+To hack on it instead, clone straight into the skills directory — it auto-loads
+from there with no marketplace step:
+
+```bash
+git clone https://github.com/guerlol/gitkit.git ~/.claude/skills/gitkit
+```
+
+Requires `git`, `python3`, and — for `/pr` only — the GitHub CLI `gh`.
+
 ## Commands
 
 | Command | For |
