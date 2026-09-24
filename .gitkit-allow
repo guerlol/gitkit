@@ -1,0 +1,12 @@
+# gitkit's own test fixtures and docs deliberately contain fake secrets — they
+# are the corpus the scanner is tested against. Keep every pattern here narrow
+# enough that a real leak in this repo would still be caught.
+
+# AWS's own documented example key ID. Used in tests, README and /guard.
+AKIAIOSFODNN7EXAMPLE
+
+# Private-key header inside a quoted test-fixture string (test_scan_staged.py).
+PRIVATE KEY-----"
+
+# The fake password in the generic-secret test.
+hunter2-correct-horse
